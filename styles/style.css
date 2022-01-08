@@ -1,0 +1,58 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(25, 200, 200);
+  margin: 0;
+}
+
+header {
+  background-color: rgb(200, 200, 200);
+  margin-bottom: 10vh;
+  padding: 0.5em;
+}
+
+footer {
+  background-color: rgb(100, 100, 100);
+  margin-top: 2em;
+}
+
+main {
+  max-width: 80ch;
+  margin-inline: auto;
+}
+
+#skip_to_content {
+  position: absolute;
+  background-color: black;
+  transform: translateX(-1000%);
+}
+
+#skip_to_content:focus {
+  transform: translateX(0);
+}
+
+nav {
+  justify-items: end;
+  justify-self: end;
+  width: 30%;
+}
+
+.horizontal_one_line {
+  display: grid;
+  grid-template-rows: auto;
+  grid-auto-flow: column;
+  padding-inline: 2rem;
+}
+
+footer p {
+  text-align: center;
+  margin-block: 0;
+}
