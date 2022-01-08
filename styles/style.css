@@ -56,3 +56,28 @@ footer p {
   text-align: center;
   margin-block: 0;
 }
+
+#main-icon {
+  display: block;
+  margin-inline: auto;
+  border-radius: 100%;
+  border: thick solid darkblue;
+  margin-bottom: 2rem;
+}
+
+#introduction > h1 {
+  text-align: center;
+}
+
+#introduction > h3 {
+  text-align: center;
+}
+
+#call_to_action > h3 {
+  text-align: center;
+}
+
+#call_to_action > button {
+  display: flex;
+  margin-inline: auto;
+}
