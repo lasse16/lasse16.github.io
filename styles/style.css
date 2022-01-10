@@ -16,6 +16,16 @@ html {
 body {
   background-color: rgb(25, 200, 200);
   margin: 0;
+  font-family: "Libre Baskerville", serif;
+  line-height: 2;
+  font-weight: normal;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+  font-family: "Roboto", sans-serif;
 }
 
 header {
@@ -60,6 +70,7 @@ nav {
 footer p {
   text-align: center;
   margin-block: 0;
+  font-size: 0.8rem;
 }
 
 #main-icon {
@@ -72,17 +83,28 @@ footer p {
 
 #introduction > h1 {
   text-align: center;
+  font-size: 2rem;
 }
 
 #introduction > h3 {
   text-align: center;
+  font-style: italic;
+  font-weight: thin;
+  margin-bottom: 1em;
 }
 
 #call_to_action > h3 {
   text-align: center;
+  font-style: italic;
+  font-weight: thin;
 }
 
 #call_to_action > button {
   display: flex;
   margin-inline: auto;
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  margin-block: 1.3em;
 }
