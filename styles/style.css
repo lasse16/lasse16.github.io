@@ -40,8 +40,9 @@ footer {
 }
 
 main {
-  max-width: 80ch;
+  max-width: 60ch;
   margin-inline: auto;
+  padding: 1em 5ch;
 }
 
 #skip_to_content {
