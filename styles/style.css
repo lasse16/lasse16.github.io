@@ -58,7 +58,8 @@ main {
 nav {
   justify-items: end;
   justify-self: end;
-  width: 30%;
+  gap: 1em;
+  font-family: "Roboto", sans-serif;
 }
 
 .horizontal_one_line {
