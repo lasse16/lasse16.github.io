@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  background-color: rgb(25, 200, 200);
+  background-color: rgb(25 200 200);
   margin: 0;
   font-family: "Libre Baskerville", serif;
   line-height: 2;
@@ -29,13 +29,13 @@ h3 {
 }
 
 header {
-  background-color: rgb(200, 200, 200);
+  background-color: rgb(200 200 200);
   margin-bottom: 10vh;
   padding: 0.5em;
 }
 
 footer {
-  background-color: rgb(100, 100, 100);
+  background-color: rgb(100 100 100);
   margin-top: 2em;
 }
 
@@ -45,13 +45,13 @@ main {
   padding: 1em 5ch;
 }
 
-#skip_to_content {
+#skip-to-content {
   position: absolute;
   background-color: black;
   transform: translateX(-1000%);
 }
 
-#skip_to_content:focus {
+#skip-to-content:focus {
   transform: translateX(0);
 }
 
@@ -62,7 +62,7 @@ nav {
   font-family: "Roboto", sans-serif;
 }
 
-.horizontal_one_line {
+.horizontal-one-line {
   display: grid;
   grid-template-rows: auto;
   grid-auto-flow: column;
@@ -98,13 +98,13 @@ footer p {
   margin-bottom: 1em;
 }
 
-#call_to_action > h3 {
+#call-to-action > h3 {
   text-align: center;
   font-style: italic;
   font-weight: thin;
 }
 
-#call_to_action > button {
+#call-to-action > button {
   display: flex;
   margin-inline: auto;
   font-family: "Roboto", sans-serif;
@@ -113,7 +113,6 @@ footer p {
   border-radius: 0.375rem;
   padding: 0.6em 1em;
   cursor: pointer;
-
   letter-spacing: -0.01em;
   line-height: 1.3;
 }
