@@ -1,0 +1,8 @@
+#skip-to-content {
+  position: absolute;
+  transform: translateX(-1000%);
+}
+
+#skip-to-content:focus {
+  transform: translateX(0);
+}
