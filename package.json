@@ -1,0 +1,39 @@
+{
+  "name": "lasse16.github.io",
+  "version": "0.0.1",
+  "description": "Lasse Haffke - Personal Website",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lasse16/lasse16.github.io.git"
+  },
+  "author": "Lasse Haffke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lasse16/lasse16.github.io/issues"
+  },
+  "targets": {
+    "default": {
+      "distDir": "build"
+    }
+  },
+  "homepage": "https://haffke.me",
+  "volta": {
+    "node": "16.13.2"
+  },
+  "browserslist": [
+    "defaults and not ie 11"
+  ],
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.1.1",
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.5",
+    "postcss-combine-duplicated-selectors": "^10.0.3",
+    "postcss-short": "^5.0.0",
+    "postcss-sorting": "^7.0.1"
+  }
+}
