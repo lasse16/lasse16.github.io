@@ -2,7 +2,7 @@
   "name": "lasse16.github.io",
   "version": "0.0.1",
   "description": "Lasse Haffke - Personal Website",
-  "source": "index.html",
+  "source": "src/index.html",
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
