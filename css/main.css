@@ -33,14 +33,26 @@ footer {
   background-color: black;
 }
 
+header {
+  display: grid;
+  grid-template-rows: auto;
+  grid-auto-flow: column;
+  padding-inline: 2rem;
+  gap: 1em;
+}
+
 main {
   max-width: 65ch;
 }
 
 nav {
+  display: grid;
+  grid-template-rows: auto;
+  grid-auto-flow: column;
+  padding-inline: 2rem;
+  gap: 1em;
   justify-items: end;
   justify-self: end;
-  gap: 1em;
 }
 
 body {
@@ -107,13 +119,6 @@ footer p {
 
 header > h2 {
   text-align: center;
-}
-
-.horizontal-one-line {
-  display: grid;
-  grid-template-rows: auto;
-  grid-auto-flow: column;
-  padding-inline: 2rem;
 }
 
 body {
