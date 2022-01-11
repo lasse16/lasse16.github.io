@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/lasse16/lasse16.github.io/issues"
   },
-  "homepage": "https://haffke.me"
+  "homepage": "https://haffke.me",
+  "volta": {
+    "node": "16.13.2"
+  }
 }
