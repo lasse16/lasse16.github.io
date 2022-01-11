@@ -18,5 +18,8 @@
   "homepage": "https://haffke.me",
   "volta": {
     "node": "16.13.2"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.1.1"
   }
 }
