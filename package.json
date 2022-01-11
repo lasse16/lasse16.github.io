@@ -21,7 +21,7 @@
     "node": "16.13.2"
   },
   "browserslist": [
-    "defaults"
+    "defaults and not ie 11"
   ],
   "devDependencies": {
     "@parcel/transformer-sass": "^2.1.1",
