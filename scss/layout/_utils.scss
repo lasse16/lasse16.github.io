@@ -1,0 +1,7 @@
+@mixin horizontal-one-line($gap: 1em) {
+  display: grid;
+  grid-template-rows: auto;
+  grid-auto-flow: column;
+  padding-inline: 2rem;
+  gap: $gap;
+}

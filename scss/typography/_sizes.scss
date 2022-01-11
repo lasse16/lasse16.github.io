@@ -1,0 +1,23 @@
+body {
+  line-height: 2;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}
+
+footer p {
+  font-size: 0.8rem;
+}
+
+#introduction > h1 {
+  font-size: 2rem;
+}
+
+#call-to-action > button {
+  font-size: 1.2rem;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+}

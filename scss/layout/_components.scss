@@ -1,0 +1,16 @@
+@use "utils" as *;
+
+header {
+  @include horizontal-one-line(1em);
+}
+
+main {
+  max-width: 65ch;
+}
+
+nav {
+  @include horizontal-one-line(1em);
+
+  justify-items: end;
+  justify-self: end;
+}
