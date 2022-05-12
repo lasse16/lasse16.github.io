@@ -11,6 +11,6 @@ main {
 nav {
   @include horizontal-one-line(1em);
 
-  justify-items: end;
+  justify-items: center;
   justify-self: end;
 }
