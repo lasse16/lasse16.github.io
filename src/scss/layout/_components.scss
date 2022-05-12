@@ -2,6 +2,8 @@
 
 header {
   @include horizontal-one-line(1em);
+
+  display: none;
 }
 
 main {
