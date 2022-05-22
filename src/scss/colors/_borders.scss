@@ -1,9 +1,11 @@
 #main-icon {
   border-radius: 100%;
-  border: thick solid darkblue;
+  border: thick solid;
+  border-color: var(--accent-color, --default-accent-color);
 }
 
 #call-to-action > button {
-  border: medium grey solid;
+  border: medium solid;
+  border-color: var(--accent-color, --default-accent-color);
   border-radius: 0.375rem;
 }
