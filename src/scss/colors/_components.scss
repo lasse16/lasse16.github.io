@@ -15,3 +15,13 @@ footer {
   background-color: var(--background, --default-background);
   color: var(--accent-color, --default-accent-color);
 }
+
+a {
+  color: var(--foreground, --default-foreground);
+}
+
+a:hover,
+a:focus {
+  color: var(--foreground, --default-foreground);
+  background-color: var(--accent-color, --default-accent-color);
+}
