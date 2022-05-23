@@ -1,5 +1,6 @@
 body {
   background-color: var(--background, --default-background);
+  color: var(--foreground, --default-foreground);
 }
 
 header {
