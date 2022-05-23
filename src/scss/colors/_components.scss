@@ -12,5 +12,6 @@ footer {
 }
 
 #skip-to-content {
-  background-color: var(--accent-color, --default-accent-color);
+  background-color: var(--background, --default-background);
+  color: var(--accent-color, --default-accent-color);
 }
