@@ -1,0 +1,23 @@
+.dark-theme,
+body[color-theme="dark"] {
+  --background: rgb(25 25 25);
+  --foreground: rgb(200 200 200);
+  --non-specific-background: rgb(60 60 60);
+  --accent-color: rgb(20 20 200);
+}
+
+.dev-theme,
+body[color-theme="dev"] {
+  --background: rgb(25 200 200);
+  --foreground: rgb(10 10 10);
+  --non-specific-background: rgb(50 50 50);
+  --accent-color: rgb(200 10 9);
+}
+
+.light-theme,
+body[color-theme="light"] {
+  --background: white;
+  --foreground: rgb(20 20 20);
+  --non-specific-background: rgb(70 70 70);
+  --accent-color: rgb(20 10 200);
+}
