@@ -25,3 +25,7 @@ a:focus {
   color: var(--foreground, --default-foreground);
   background-color: var(--accent-color, --default-accent-color);
 }
+
+::selection {
+  background-color: var(--accent-color, --default-accent-color);
+}
