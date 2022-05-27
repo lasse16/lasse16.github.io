@@ -1,3 +1,5 @@
+@use "sass:color";
+
 $dark-non-black: #1f1f1f;
 $bright-non-white: #f1f1f7;
 $pastel-blue: #3f72f3;
@@ -6,7 +8,7 @@ $pastel-blue: #3f72f3;
 body[color-theme="dark"] {
   --background: #{$dark-non-black};
   --foreground: #{$bright-non-white};
-  --non-specific-background: #474747;
+  --non-specific-background: #{color.adjust($dark-non-black, $lightness: 10%)};
   --accent-color: #{$pastel-blue};
 }
 
@@ -22,6 +24,6 @@ body[color-theme="dev"] {
 body[color-theme="light"] {
   --background: #{$bright-non-white};
   --foreground: #{$dark-non-black};
-  --non-specific-background: rgb(70 70 70);
+  --non-specific-background: #{color.adjust($bright-non-white, $lightness: -10%)};
   --accent-color: #{$pastel-blue};
 }
