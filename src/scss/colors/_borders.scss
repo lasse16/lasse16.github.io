@@ -6,6 +6,6 @@
 
 #call-to-action > button {
   border: medium solid;
-  border-color: var(--accent-color, --default-accent-color);
+  border-color: var(--non-specific-background, --default-accent-color);
   border-radius: 0.375rem;
 }
