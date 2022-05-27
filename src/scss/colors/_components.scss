@@ -21,9 +21,11 @@ a {
 }
 
 a:hover,
+a:focus-visible,
 a:focus {
-  color: var(--foreground, --default-foreground);
-  background-color: var(--accent-color, --default-accent-color);
+  outline: none;
+  box-shadow: 0 0 0 2px var(--accent-color, --default-accent-color);
+  color: var(--accent-color, --default-accent-color);
 }
 
 ::selection {
