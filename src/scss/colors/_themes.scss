@@ -1,9 +1,13 @@
+$dark-non-black: #1f1f1f;
+$bright-non-white: #f1f1f7;
+$pastel-blue: #3f72f3;
+
 .dark-theme,
 body[color-theme="dark"] {
-  --background: rgb(25 25 25);
-  --foreground: rgb(200 200 200);
-  --non-specific-background: rgb(60 60 60);
-  --accent-color: rgb(20 20 200);
+  --background: #{$dark-non-black};
+  --foreground: #{$bright-non-white};
+  --non-specific-background: #474747;
+  --accent-color: #{$pastel-blue};
 }
 
 .dev-theme,
@@ -16,8 +20,8 @@ body[color-theme="dev"] {
 
 .light-theme,
 body[color-theme="light"] {
-  --background: white;
-  --foreground: rgb(20 20 20);
+  --background: #{$bright-non-white};
+  --foreground: #{$dark-non-black};
   --non-specific-background: rgb(70 70 70);
-  --accent-color: rgb(20 10 200);
+  --accent-color: #{$pastel-blue};
 }
