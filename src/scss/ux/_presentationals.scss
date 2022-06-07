@@ -1,0 +1,12 @@
+section > h2 {
+  display: flex;
+}
+
+section > h2::after {
+  content: "";
+  height: 0.1em;
+  background-color: var(--foreground);
+  flex: auto;
+  align-self: center;
+  margin-left: 1ch;
+}
