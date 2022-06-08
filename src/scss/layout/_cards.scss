@@ -34,3 +34,58 @@
   padding: 1em;
   justify-content: center;
 }
+
+#card-mentor {
+  background-image: url("../images/mentor_front_page.png");
+  background-size: cover;
+  background-position: 70%;
+}
+
+#card-mentor > h3 {
+  color: var(--background);
+}
+
+#card-mentor > h3::after {
+  background-color: var(--background);
+}
+
+#card-aoc {
+  background-image: url("../images/aoc_stars.png");
+  background-size: cover;
+}
+
+#card-aoc > h3 {
+  color: var(--background);
+}
+
+#card-aoc > h3::after {
+  background-color: var(--background);
+}
+
+#card-cstars {
+  background-image: url("../images/cstars_icon_dark_bg.png");
+  background-size: cover;
+  background-position: 99%;
+}
+
+#card-cstars > h3 {
+  color: var(--background);
+}
+
+#card-cstars > h3::after {
+  background-color: var(--background);
+}
+
+#card-dotfiles {
+  background-image: url("../images/dotfile_icon_dark_bg.png");
+  background-size: cover;
+  background-position: 80%;
+}
+
+#card-dotfiles > h3 {
+  color: var(--background);
+}
+
+#card-dotfiles > h3::after {
+  background-color: var(--background);
+}
