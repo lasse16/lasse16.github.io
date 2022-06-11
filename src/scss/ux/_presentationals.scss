@@ -10,3 +10,28 @@ section > h2::after {
   align-self: center;
   margin-left: 1ch;
 }
+
+#cv-header {
+  --inline-padding: 1ch;
+  --inline-height: 0.1em;
+
+  display: flex;
+}
+
+#cv-header::after {
+  content: "";
+  height: var(--inline-height);
+  background-color: var(--foreground);
+  flex: auto;
+  align-self: center;
+  margin-left: var(--inline-padding);
+}
+
+#cv-header::before {
+  content: "";
+  height: var(--inline-height);
+  background-color: var(--foreground);
+  flex: auto;
+  align-self: center;
+  margin-right: var(--inline-padding);
+}
