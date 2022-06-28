@@ -5,7 +5,7 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "rm docs/* && parcel build && git add docs && git commit -m 'Built website'"
   },
   "repository": {
     "type": "git",
