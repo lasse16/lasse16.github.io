@@ -38,46 +38,15 @@ a:focus {
 }
 
 .project-card-title {
-  color: var(--foreground);
+  color: white;
   background-color: rgba(0, 0, 0, 0.3);
 }
 
 .project-card-title::after {
-  background-color: var(--foreground);
+  background-color: white;
 }
 
 .project-card-description {
   background-color: white;
-}
-
-#card-mentor > h3 {
-  color: var(--background);
-}
-
-#card-mentor > h3::after {
-  background-color: var(--background);
-}
-
-#card-aoc > h3 {
-  color: var(--background);
-}
-
-#card-aoc > h3::after {
-  background-color: var(--background);
-}
-
-#card-cstars > h3 {
-  color: var(--background);
-}
-
-#card-cstars > h3::after {
-  background-color: var(--background);
-}
-
-#card-dotfiles > h3 {
-  color: var(--background);
-}
-
-#card-dotfiles > h3::after {
-  background-color: var(--background);
+  color: black;
 }
