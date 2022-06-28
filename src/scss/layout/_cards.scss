@@ -1,8 +1,10 @@
 .project-card {
   border-radius: 0.5rem;
   padding-inline: 1ch;
-  max-width: 40ch;
+  min-width: 25ch;
+  max-width: 30ch;
   min-height: 30ch;
+  max-height: 40ch;
   text-decoration: none;
 }
 
@@ -23,6 +25,7 @@
   margin-top: -0.5em;
   padding: 1em;
   border-radius: 0.5em;
+  font-size: smaller;
 }
 
 #project-card-container {
