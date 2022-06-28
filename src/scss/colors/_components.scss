@@ -31,3 +31,53 @@ a:focus {
 ::selection {
   background-color: var(--accent-color, --default-accent-color);
 }
+
+.project-card {
+  background-color: var(--background);
+  box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.67);
+}
+
+.project-card-title {
+  color: var(--foreground);
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.project-card-title::after {
+  background-color: var(--foreground);
+}
+
+.project-card-description {
+  background-color: white;
+}
+
+#card-mentor > h3 {
+  color: var(--background);
+}
+
+#card-mentor > h3::after {
+  background-color: var(--background);
+}
+
+#card-aoc > h3 {
+  color: var(--background);
+}
+
+#card-aoc > h3::after {
+  background-color: var(--background);
+}
+
+#card-cstars > h3 {
+  color: var(--background);
+}
+
+#card-cstars > h3::after {
+  background-color: var(--background);
+}
+
+#card-dotfiles > h3 {
+  color: var(--background);
+}
+
+#card-dotfiles > h3::after {
+  background-color: var(--background);
+}

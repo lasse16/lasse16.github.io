@@ -1,7 +1,5 @@
 .project-card {
-  background-color: var(--background);
   border-radius: 0.5rem;
-  box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.67);
   padding-inline: 1ch;
   max-width: 40ch;
   min-height: 30ch;
@@ -11,8 +9,6 @@
 .project-card-title {
   margin-top: 40%;
   text-transform: uppercase;
-  color: var(--foreground);
-  background-color: rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(3px);
   display: grid;
 }
@@ -20,12 +16,10 @@
 .project-card-title::after {
   content: "";
   height: 0.2rem;
-  background-color: var(--foreground);
   border-radius: 0.2em;
 }
 
 .project-card-description {
-  background-color: white;
   margin-top: -0.5em;
   padding: 1em;
   border-radius: 0.5em;
@@ -44,25 +38,9 @@
   background-position: 70%;
 }
 
-#card-mentor > h3 {
-  color: var(--background);
-}
-
-#card-mentor > h3::after {
-  background-color: var(--background);
-}
-
 #card-aoc {
   background-image: url("../images/aoc_stars.png");
   background-size: cover;
-}
-
-#card-aoc > h3 {
-  color: var(--background);
-}
-
-#card-aoc > h3::after {
-  background-color: var(--background);
 }
 
 #card-cstars {
@@ -71,24 +49,8 @@
   background-position: 99%;
 }
 
-#card-cstars > h3 {
-  color: var(--background);
-}
-
-#card-cstars > h3::after {
-  background-color: var(--background);
-}
-
 #card-dotfiles {
   background-image: url("../images/dotfile_icon_dark_bg.png");
   background-size: cover;
   background-position: 80%;
-}
-
-#card-dotfiles > h3 {
-  color: var(--background);
-}
-
-#card-dotfiles > h3::after {
-  background-color: var(--background);
 }
