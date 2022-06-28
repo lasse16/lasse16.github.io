@@ -5,7 +5,7 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "rm docs/* && parcel build && git add docs && git commit -m 'Built website'"
+    "build": "rm  docs/* && parcel build && printf 'haffke.me' > docs/CNAME && git add docs && git commit -m 'Built website'"
   },
   "repository": {
     "type": "git",
