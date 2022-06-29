@@ -1,3 +1,5 @@
+$github-corner-width: 5rem;
+
 #github-corner {
   border-bottom: 0;
   position: fixed;
@@ -10,8 +12,8 @@
 #github-corner svg {
   fill: var(--foreground);
   color: var(--background);
-  height: 5rem;
-  width: 5rem;
+  aspect-ratio: 1;
+  width: $github-corner-width;
 }
 
 #github-corner:hover .octo-arm,
@@ -34,4 +36,23 @@
   80% {
     transform: rotate(10deg);
   }
+}
+
+#dark-mode-toggle {
+  --width: calc(#{$github-corner-width} / 2);
+
+  position: fixed;
+  right: 3ch;
+  text-decoration: none;
+  top: calc($github-corner-width + 1rem);
+  z-index: 1;
+  aspect-ratio: 1;
+  width: var(--width);
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 0.5rem;
+  display: grid;
+  gap: var(--width);
+  border: none;
+  box-shadow: 0 0 0.1rem 0.1rem var(--foreground);
 }
