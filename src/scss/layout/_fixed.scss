@@ -14,7 +14,8 @@
   width: 5rem;
 }
 
-#github-corner:hover .octo-arm {
+#github-corner:hover .octo-arm,
+#github-corner:focus .octo-arm {
   animation: octocat-wave 0.56s ease-in-out;
 }
 
