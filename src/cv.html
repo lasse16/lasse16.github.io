@@ -7,6 +7,9 @@
 	  <button onclick="window.location.href='/index.html'" id="home-button">
 		  <icon src="src/images/house.svg" ></icon>
 	  </button>
+	  <button onclick="window.print()" id="print-button">
+		  <icon src="src/images/print.svg" ></icon>
+	  </button>
     <main id="main">
       <section id="introduction">
         <h1 id="cv-header">Curriculum vitae</h1>
@@ -86,9 +89,8 @@
 		  <dd>English C1-level, Latinum, Graecum</dd>
 
         </section>
-        <p>TODO: Add download link</p>
-        <p>TODO: Add printable version for Ctrl+p</p>
       </section>
     </main>
+    <link rel="stylesheet" type="text/css" href="scss/ux/_print.scss">
   </body>
 </html>

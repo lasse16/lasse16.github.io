@@ -72,3 +72,19 @@ $github-corner-width: 5rem;
   border: none;
   box-shadow: 0 0 0.1rem 0.1rem var(--foreground);
 }
+
+#print-button {
+  --width: calc(#{$github-corner-width} / 2);
+
+  position: fixed;
+  right: 3ch;
+  text-decoration: none;
+  top: calc($github-corner-width + 1.5rem + 2 * ( var(--width) + 1.5rem));
+  z-index: 1;
+  aspect-ratio: 1;
+  width: var(--width);
+  border-radius: 50%;
+  padding: 0.5rem;
+  border: none;
+  box-shadow: 0 0 0.1rem 0.1rem var(--foreground);
+}
