@@ -44,7 +44,7 @@ $github-corner-width: 5rem;
   position: fixed;
   right: 3ch;
   text-decoration: none;
-  top: calc($github-corner-width + 1rem);
+  top: calc($github-corner-width + 1.5rem);
   z-index: 1;
   aspect-ratio: 1;
   width: var(--width);
@@ -53,6 +53,22 @@ $github-corner-width: 5rem;
   padding: 0.5rem;
   display: grid;
   gap: var(--width);
+  border: none;
+  box-shadow: 0 0 0.1rem 0.1rem var(--foreground);
+}
+
+#home-button {
+  --width: calc(#{$github-corner-width} / 2);
+
+  position: fixed;
+  right: 3ch;
+  text-decoration: none;
+  top: calc($github-corner-width + 1.5rem + var(--width) + 1.5rem);
+  z-index: 1;
+  aspect-ratio: 1;
+  width: var(--width);
+  border-radius: 50%;
+  padding: 0.5rem;
   border: none;
   box-shadow: 0 0 0.1rem 0.1rem var(--foreground);
 }
