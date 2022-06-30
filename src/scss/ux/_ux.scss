@@ -5,3 +5,8 @@ html {
 #call-to-action > button {
   cursor: pointer;
 }
+
+#call-to-action > button:hover,
+#call-to-action > button:focus {
+  box-shadow: 0 0 0.1rem 0.1rem inset;
+}
