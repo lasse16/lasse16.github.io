@@ -20,7 +20,7 @@ a:hover,
 a:focus-visible,
 a:focus {
   outline: none;
-  box-shadow: 0 0 0 2px var(--accent-color, --default-accent-color);
+  box-shadow: 0 0 0 2px var(--background), 0 0 0 4px var(--accent-color, --default-accent-color);
   color: var(--accent-color, --default-accent-color);
 }
 
@@ -30,12 +30,12 @@ a:focus {
 
 .project-card {
   background-color: var(--background);
-  box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.67);
+  box-shadow: 3px 3px 5px 0 rgb(0 0 0 / 67%);
 }
 
 .project-card-title {
   color: white;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgb(0 0 0 / 30%);
 }
 
 .project-card-title::after {
