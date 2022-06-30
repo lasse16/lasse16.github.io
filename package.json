@@ -1,38 +1,41 @@
 {
-  "name": "lasse16.github.io",
-  "version": "0.0.1",
-  "description": "Lasse Haffke - Personal Website",
-  "source": "src/index.html",
-  "scripts": {
-    "start": "parcel",
-    "build": "rm  docs/* && parcel build && printf 'haffke.me' > docs/CNAME && git add docs && git commit -m 'Built website'"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lasse16/lasse16.github.io.git"
-  },
-  "author": "Lasse Haffke",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lasse16/lasse16.github.io/issues"
-  },
-  "targets": {
-    "default": {
-      "distDir": "docs"
-    }
-  },
-  "homepage": "https://haffke.me",
-  "volta": {
-    "node": "16.13.2"
-  },
-  "browserslist": [
-    "defaults and not ie 11"
-  ],
-  "devDependencies": {
-    "@parcel/transformer-sass": "^2.1.1",
-    "postcss": "^8.4.5",
-    "postcss-combine-duplicated-selectors": "^10.0.3",
-    "postcss-short": "^5.0.0",
-    "postcss-sorting": "^7.0.1"
-  }
+	"name": "lasse16.github.io",
+	"version": "0.0.1",
+	"description": "Lasse Haffke - Personal Website",
+	"source": "src/index.html",
+	"scripts": {
+		"start": "parcel",
+		"build": "rm  docs/* && parcel build && printf 'haffke.me' > docs/CNAME && git add docs && git commit -m 'Built website'"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/lasse16/lasse16.github.io.git"
+	},
+	"author": "Lasse Haffke",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/lasse16/lasse16.github.io/issues"
+	},
+	"targets": {
+		"default": {
+			"distDir": "docs"
+		}
+	},
+	"homepage": "https://haffke.me",
+	"volta": {
+		"node": "16.13.2"
+	},
+	"browserslist": [
+		"defaults and not ie 11"
+	],
+	"devDependencies": {
+		"@parcel/transformer-sass": "^2.1.1",
+		"postcss": "^8.4.5",
+		"postcss-combine-duplicated-selectors": "^10.0.3",
+		"postcss-short": "^5.0.0",
+		"postcss-sorting": "^7.0.1",
+		"posthtml": "^0.16.6",
+		"posthtml-include": "^1.7.4",
+		"posthtml-inline-svg": "^0.2.0"
+	}
 }
