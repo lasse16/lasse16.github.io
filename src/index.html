@@ -1,43 +1,43 @@
 <!DOCTYPE html>
 
 <html lang="en">
-	<include src="head.html"></include>
+  <include src="head.html"></include>
   <body class="light-theme">
     <a href="#main" id="skip-to-content"> Skip to content? </a>
     <include src="shared-fixed.html"></include>
-    <main id="main">
+    <main id="main" aria-label="Main content">
       <img
         src="images/favicon.ico"
         alt="main icon"
-        aria-role="presentation"
         id="main-icon"
       />
-      <nav>
+      <nav aria-label="Navbar">
         <a href="#projects" target="_self">Projects</a>
         <a href="cv.html" target="_blank">Curriculum Vitae</a>
         <a href="https://github.com/lasse16" target="_blank">Github</a>
       </nav>
-      <section id="introduction">
+      <section id="introduction" >
         <h1>Moin, I am Lasse.</h1>
         <h3>Welcome to my webpage. Enjoy your stay!</h3>
-      <section id="about_me">
-        <p>
-          I am a M.Sc Computer Science student who tried his hand at lot of
-          things computer-related. There's been a plethora of Unity projects,
-          Rust CLI apps, CSS Designs and more that never saw the light of day,
-          or the width of the web, for that matter.
-        </p>
-        <p>
-          Outside of work, I enjoy history and games. Kingdom Come: Deliverance
-          is among my Top 10. Other titles up there, are the 'ANNO' and
-          'Settlers' series.
-        </p>
-        <p>
-          Have a look at my <a href="cv.html">CV</a>. It comes in a printable
-          version, too!
-        </p>
+        <section id="about_me" >
+          <p>
+            I am a M.Sc Computer Science student who tried his hand at lot of
+            things computer-related. There's been a plethora of Unity projects,
+            Rust CLI apps, CSS Designs and more that never saw the light of day,
+            or the width of the web, for that matter.
+          </p>
+          <p>
+            Outside of work, I enjoy history and games. Kingdom Come:
+            Deliverance is among my Top 10. Other titles up there, are the
+            'ANNO' and 'Settlers' series.
+          </p>
+          <p>
+            Have a look at my <a href="cv.html">CV</a>. It comes in a printable
+            version, too!
+          </p>
+        </section>
       </section>
-      <section id="projects">
+      <section id="projects" >
         <h2>Projects</h2>
         <p>
           I've tried a lot of stuff. Here's a collection of my favorite
@@ -45,42 +45,68 @@
           <a href="https://github.com/lasse16" target="_blank">Github</a>
           too.
         </p>
-	<section id="project-card-container">
-		<a class="project-card" id="card-mentor" href="https://mentor.gg" target="_blank">
-			<h3 class="project-card-title">Mentor.GG</h3>
-			<p class="project-card-description"> 
-			An E-Sports-Analytics suite, focused on solo player Counterstrike:Global Offensive Performance.
-			It was built with ASP.NET Core, Sass, Vue.js and Docker.
-		</a>
-		<a class="project-card" id="card-cstars" href="https://github.com/lasse16/cstars" target="_blank">
-			<h3 class="project-card-title">CStars</h3>
-			<p class="project-card-description">
-			CStars is a CLI tool to interact with 'Advent of Code'.
-			Its name is inspired by the traditional german christmas sweet, cinnamon stars, as well as the awesome phonetic.</p>
-		</a>
-		<a class="project-card" id="card-aoc" href="https://github.com/lasse16/aoc_2021" target="_blank">
-			<h3 class="project-card-title">AOC_2021</h3>
-			<p class="project-card-description">
-			These are my solutions to the Advent of Code challenges of the year 2021.
-			</p>
-		</a>
-		<a class="project-card" id="card-dotfiles" href="https://github.com/lasse16/dotfiles" target="_blank">
-			<h3 class="project-card-title">Dotfiles</h3>
-			<p class="project-card-description">
-			My dotfiles are probably the project in which I have invested the most time.
-			Feel free to fork these, but they will always be a work in progress.
-			</p>
-		</a>
-	</section>
-      </section>
-      <section id="call-to-action">
+        <section id="project-card-container">
+          <a
+            class="project-card"
+            id="card-mentor"
+            href="https://mentor.gg"
+            target="_blank"
+          >
+            <h3 class="project-card-title">Mentor.GG</h3>
+            <p class="project-card-description">
+              An E-Sports-Analytics suite, focused on solo player
+              Counterstrike:Global Offensive Performance. It was built with
+              ASP.NET Core, Sass, Vue.js and Docker.
+            </p></a
+          >
+
+          <a
+            class="project-card"
+            id="card-cstars"
+            href="https://github.com/lasse16/cstars"
+            target="_blank"
+          >
+            <h3 class="project-card-title">CStars</h3>
+            <p class="project-card-description">
+              CStars is a CLI tool to interact with 'Advent of Code'. Its name
+              is inspired by the traditional german christmas sweet, cinnamon
+              stars, as well as the awesome phonetic.
+            </p>
+          </a>
+          <a
+            class="project-card"
+            id="card-aoc"
+            href="https://github.com/lasse16/aoc_2021"
+            target="_blank"
+          >
+            <h3 class="project-card-title">AOC_2021</h3>
+            <p class="project-card-description">
+              These are my solutions to the Advent of Code challenges of the
+              year 2021.
+            </p>
+          </a>
+          <a
+            class="project-card"
+            id="card-dotfiles"
+            href="https://github.com/lasse16/dotfiles"
+            target="_blank"
+          >
+            <h3 class="project-card-title">Dotfiles</h3>
+            <p class="project-card-description">
+              My dotfiles are probably the project in which I have invested the
+              most time. Feel free to fork these, but they will always be a work
+              in progress.
+            </p>
+          </a>
+        </section>
+      <section id="call-to-action" >
         <h3>Still got questions? Or a cool project idea?</h3>
         <button onclick="location.href='mailto:website@haffke.me';">
           Hit me up!
         </button>
       </section>
     </main>
-    <footer>
+    <footer aria-label="Footer">
       <p>Designed and built by Lasse Haffke | Last updated 2022-07-01</p>
     </footer>
   </body>
