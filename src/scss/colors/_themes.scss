@@ -24,6 +24,6 @@ body[color-theme="dev"] {
 body[color-theme="light"] {
   --background: #{$bright-non-white};
   --foreground: #{$dark-non-black};
-  --non-specific-background: #{color.adjust($bright-non-white, $lightness: -10%)};
+  --non-specific-background: #{color.adjust($dark-non-black, $lightness: 10%)};
   --accent-color: #{$pastel-blue};
 }
