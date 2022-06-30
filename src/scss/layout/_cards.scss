@@ -1,8 +1,10 @@
+$max-card-width: 30ch;
+
 .project-card {
   border-radius: 0.5rem;
   padding-inline: 1ch;
   min-width: 25ch;
-  max-width: 30ch;
+  max-width: $max-card-width;
   min-height: 30ch;
   max-height: 40ch;
   text-decoration: none;
@@ -30,9 +32,13 @@
 
 #project-card-container {
   display: grid;
-  gap: 0.5em;
+  gap: 0.7em;
   padding: 1em;
   justify-content: center;
+
+  @media (min-width: #{2.1 * $max-card-width}) {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 #card-mentor {
