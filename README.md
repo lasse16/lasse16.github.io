@@ -8,10 +8,9 @@ Now, it is an over-engineered tech-stack.
 
 It started by using [Sass](https://sass-lang.com/), because css files get pretty huge and css modules wasn't quite there yet.
 
-But compiling Sass by hand …
-Well, [Parcel](https://parceljs.org/) comes to the rescue, now my Sass gets compiled and automagically name-wrangeled.
+But compiling Sass by hand … , well, [Parcel](https://parceljs.org/) comes to the rescue, now my Sass gets compiled and automagically name-wrangeled.
 
-Using Sass and partials is nice,but they lead to duplicate selectors, as they come from different partial files.
+Using Sass and partials is nice, but they lead to duplicate selectors, as they come from different partial files.
 Luckily, there is [PostCss](https://postcss.org/) and it integrates nicely with Parcel. My Css now has duplicate selectors automatically merged, selectors alphabetically sorted, and experimental Css vendor-prefixed.
 
 Wanting to build a second page? And re-use some of the shared `<head>` content?
