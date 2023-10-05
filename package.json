@@ -30,7 +30,7 @@
 	],
 	"devDependencies": {
 		"@parcel/transformer-sass": "^2.1.1",
-		"postcss": "^8.4.5",
+		"postcss": "^8.4.31",
 		"postcss-combine-duplicated-selectors": "^10.0.3",
 		"postcss-short": "^5.0.0",
 		"postcss-sorting": "^7.0.1",
